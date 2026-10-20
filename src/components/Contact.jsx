@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact">
       <div className="container">
         <h2 className="section-title">Contact</h2>
-        <p className="section-sub">Let&apos;s talk about your next project.</p>
+        
         <div className="contact-box">
           <p>
             Email me at{' '}

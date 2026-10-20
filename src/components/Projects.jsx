@@ -4,8 +4,8 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        <h2 className="section-title">Selected work</h2>
-        <p className="section-sub">A few things I&apos;ve built recently.</p>
+        <h2 className="section-title">my project</h2>
+        
         <div className="grid-projects">
           {projects.map((p) => (
             <article key={p.id} className="card">
