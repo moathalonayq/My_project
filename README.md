@@ -1,26 +1,27 @@
-# React Portfolio Template
+# Moath Alonayq — Portfolio
 
-Responsive single-page portfolio built with Vite and React. Dark theme, sticky nav, and mobile menu.
+Personal developer portfolio built with React and Vite. Showcases full-stack web applications, tools, and technical skills.
 
-## Quick start
+## Featured Projects
+
+1. **Leader Portal (قسم قائد)** — Club & supervisor management system.
+2. **Summer Club Management (نادي القيروان)** — Seasonal club administration & attendance tracking.
+3. **Promise Reward (قسم واعد)** — Gamified student activity & rewards platform.
+4. **Al-Muhaynik Arena (مسابقة المحينك)** — Real-time multiplayer trivia and game competition platform.
+
+## Quick Start
 
 ```bash
 npm install
 npm run dev
 ```
 
-Edit **`src/data/portfolio.js`** for your name, links, projects, and skills.
-
 ## Scripts
 
-| Command         | Description        |
-| --------------- | ------------------ |
-| `npm run dev`   | Local dev server   |
-| `npm run build` | Production build   |
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Run local Vite development server |
+| `npm run build` | Compile production build to `dist/` |
 | `npm run preview` | Preview production build |
+| `npm run lint` | Run linter checks |
 
-## Structure
-
-- `src/components/` — UI sections (Navbar, Hero, About, Projects, Skills, Contact, Footer)
-- `src/data/portfolio.js` — All copy and project data
-- `src/App.css` — Layout and component styles
