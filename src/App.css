@@ -219,6 +219,8 @@ section {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   transition:
     border-color 0.2s,
     transform 0.2s;
@@ -229,16 +231,12 @@ section {
   transform: translateY(-4px);
 }
 
-.card img {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  display: block;
-}
-
 .card-body {
-  padding: 1.25rem;
+  padding: 1.5rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card-body h3 {
@@ -250,10 +248,11 @@ section {
   color: var(--text-muted);
   font-size: 0.9rem;
   margin: 0 0 1rem;
+  line-height: 1.6;
 }
 
 .card-link {
-  margin-top: 1rem;
+  margin-top: auto;
   width: 100%;
 }
 

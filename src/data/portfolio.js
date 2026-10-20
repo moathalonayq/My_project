@@ -16,7 +16,6 @@ export const projects = [
       'Club and supervisor management platform featuring daily attendance logging, student records, family & mega groups, and QR code integration.',
     tags: ['Node.js', 'Express', 'QR Code', 'Full Stack'],
     link: 'https://leader-1hss.onrender.com/',
-    image: 'https://picsum.photos/seed/leader-portal/800/500',
   },
   {
     id: 2,
@@ -25,7 +24,6 @@ export const projects = [
       'Seasonal club management system with student grouping, guardian portal, supervisor administration, and QR camera scanning for attendance.',
     tags: ['Web App', 'Attendance', 'QR Scanner', 'Dashboard'],
     link: 'https://summer-club-management-2.onrender.com/',
-    image: 'https://picsum.photos/seed/summer-club/800/500',
   },
   {
     id: 3,
@@ -34,7 +32,6 @@ export const projects = [
       'Gamified student activity and reward tracking portal with group competition leaderboards, individual achievements, and daily check-ins.',
     tags: ['Gamification', 'Student Portal', 'Rewards', 'Leaderboards'],
     link: 'https://promise-reward.onrender.com/',
-    image: 'https://picsum.photos/seed/promise-reward/800/500',
   },
   {
     id: 4,
@@ -43,7 +40,6 @@ export const projects = [
       'Real-time multiplayer quiz and arena battle platform featuring admin room controls, team participation portals, and live spectator scoreboard screens.',
     tags: ['Real-time', 'Multiplayer', 'Interactive', 'Game Arena'],
     link: 'https://war-game-tjgg.onrender.com/',
-    image: 'https://picsum.photos/seed/war-game/800/500',
   },
 ]
 

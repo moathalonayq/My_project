@@ -9,7 +9,6 @@ export default function Projects() {
         <div className="grid-projects">
           {projects.map((p) => (
             <article key={p.id} className="card">
-              <img src={p.image} alt={p.title} loading="lazy" />
               <div className="card-body">
                 <h3>{p.title}</h3>
                 <p>{p.description}</p>
